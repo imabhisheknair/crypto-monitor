@@ -1,0 +1,25 @@
+curl 'https://www.binance.com/bapi/futures/v1/public/future/leaderboard/getPositionStatus' \
+  -H 'authority: www.binance.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'bnc-uuid: f33523c9-0bf2-4a63-90a3-3ff608e46486' \
+  -H 'cache-control: no-cache' \
+  -H 'clienttype: web' \
+  -H 'content-type: application/json' \
+  -H 'cookie: cid=EkPIJA58; bnc-uuid=f33523c9-0bf2-4a63-90a3-3ff608e46486; userPreferredCurrency=USD_USD; BNC_FV_KEY=33ce4a41125ca3ff8bfee182ad0e1436bfbad897; source=referral; campaign=www.binance.com; monitor-uuid=14f48008-5cb9-44d3-97c3-e0778a6ddf0f; BNC_FV_KEY_EXPIRE=1670496618347; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184e5c5a9c7237-0a10a530400d7c-3c641d5c-1049088-184e5c5a9c84f5%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg0ZTVjNWE5YzcyMzctMGExMGE1MzA0MDBkN2MtM2M2NDFkNWMtMTA0OTA4OC0xODRlNWM1YTljODRmNSJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%22184e5c5a9c7237-0a10a530400d7c-3c641d5c-1049088-184e5c5a9c84f5%22%7D; lang=en; theme=dark; OptanonConsent=isGpcEnabled=1&datestamp=Thu+Dec+08+2022+10%3A23%3A17+GMT%2B0530+(India+Standard+Time)&version=6.34.0&isIABGlobal=false&hosts=&consentId=8431fb4a-0748-43dc-a472-d49628cb1f0c&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A0%2CC0002%3A1&AwaitingReconsent=false' \
+  -H 'csrftoken: d41d8cd98f00b204e9800998ecf8427e' \
+  -H 'device-info: eyJzY3JlZW5fcmVzb2x1dGlvbiI6Ijc2OCwxMzY2IiwiYXZhaWxhYmxlX3NjcmVlbl9yZXNvbHV0aW9uIjoiNzQxLDEzNjYiLCJzeXN0ZW1fdmVyc2lvbiI6IkxpbnV4IHg4Nl82NCIsImJyYW5kX21vZGVsIjoidW5rbm93biIsInN5c3RlbV9sYW5nIjoiZW4tVVMiLCJ0aW1lem9uZSI6IkdNVCs2IiwidGltZXpvbmVPZmZzZXQiOi0zMzAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoWDExOyBMaW51eCB4ODZfNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDEuMC40OTUxLjU0IFNhZmFyaS81MzcuMzYiLCJsaXN0X3BsdWdpbiI6InIxNjkuZnYzLGx5NWNPblQsQnJhdmUgUERGICxQREYgZXh0ZW5zaW9uIiwiY2FudmFzX2NvZGUiOiI3NTEwMmNkZCIsIndlYmdsX3ZlbmRvciI6Ikdvb2dsZSBJbmMuIChJbnRlbCkiLCJ3ZWJnbF9yZW5kZXJlciI6IkFOR0xFIChJbnRlbCwgTWVzYSBJbnRlbChSKSBIRCBHcmFwaGljcyA1NTAwIChCRFcgR1QyKSwgT3BlbkdMIDQuNikiLCJhdWRpbyI6IjEyMy41NzA5NjA4OTcyNjExIiwicGxhdGZvcm0iOiJMaW51eCB4ODZfNjQiLCJ3ZWJfdGltZXpvbmUiOiJBc2lhL0NhbGN1dHRhIiwiZGV2aWNlX25hbWUiOiJDaHJvbWUgVjEwMS4wLjQ5NTEuNTQgKExpbnV4KSIsImZpbmdlcnByaW50IjoiZGVhNGRmMjM2N2YzYjc1ZjMzYzMyZTA4YjhmNzhhNzMiLCJkZXZpY2VfaWQiOiIiLCJyZWxhdGVkX2RldmljZV9pZHMiOiIifQ==' \
+  -H 'fvideo-id: 33ce4a41125ca3ff8bfee182ad0e1436bfbad897' \
+  -H 'lang: en' \
+  -H 'origin: https://www.binance.com' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://www.binance.com/en/futures-activity/leaderboard' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' \
+  -H 'x-trace-id: d925a519-cbe7-44f2-9dc7-edae132966e8' \
+  -H 'x-ui-request-trace: d925a519-cbe7-44f2-9dc7-edae132966e8' \
+  --data-raw '{"tradeType":"PERPETUAL","encryptedUidList":["0932D2B47499C2E940AE805D3D2D9B72","71F7D1E25E99D0801779356DEA44E8BF","FAD84AAFD6E43900BF15E06B21857715","138401F934D329696A3AEF3F3278C367","4AB3E0C505394CAD70A7EDF9DE9FC34F","E8B2027A179D1CCDDC982B5F992A0601"]}' \
+  --compressed
